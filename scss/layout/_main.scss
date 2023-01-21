@@ -1,0 +1,113 @@
+main {
+	min-height: 80vh;
+	.portada img{ border-radius: 50%;
+	display: flex;
+	width: 50%;
+	box-shadow: -20px 10px 5px black;
+}
+.portada {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	background: rgb(250,200,15);
+	background: linear-gradient(90deg, rgba(250,200,15,1) 0%, rgba(253,29,29,1) 63%, rgba(244,35,35,1) 99%);
+}
+.videos {
+	img {
+		border-radius: 50%;
+		width: 60%;
+		box-shadow: 20px 10px 5px black;
+	}
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.biblio {
+	img {
+		border-radius: 50%;
+		width: 60%;
+		box-shadow: 20px 10px 5px black;
+	}
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.redes {
+	img {
+		border-radius: 50%;
+		width: 65%;
+		height: 260px;
+		box-shadow: 20px 10px 5px black;
+	}
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.eventos {
+	img {
+		border-radius: 50%;
+		width: 60%;
+		box-shadow: 20px 10px 5px black;
+	}
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.titulo {
+	h1 {
+		display: flex;
+		flex-flow: row wrap;
+		text-indent: 20px;
+		text-shadow: 5px 5px 10px white;
+		font-size: 30px;
+		font-weight: 100px;
+		background-color: red;
+		border-radius: 50px;
+		font-family: $typo-principal;
+	}
+}
+.info {
+	letter-spacing: 1px;
+	h2 {
+		display: flex;
+		justify-content: center;
+		text-shadow: 5px 5px 10px rgb(255, 0, 0);
+		height: 70px;
+		flex-flow: row wrap;
+		margin: 20px;
+	}
+	p {
+		display: flex;
+		text-indent: 40px;
+		color: rgb(39, 38, 38);
+		height: 100px;
+		flex-flow: row wrap;
+		overflow: auto;
+		margin: 20px;
+		font-family: $typo-secundario;
+	}
+}
+.prox {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.descrip {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	height: 70px;
+}
+.not {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	height: 70px;
+}
+.spo{
+	@include flex(center, center, center)
+}
+.live{
+	@include grid(center, center, end, ifr ifr ifr)
+}
+}

@@ -1,0 +1,30 @@
+header {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	background-color: red;
+}
+.div {
+	display: flex;
+	background-color: red;
+}
+nav {
+	width: 90%;
+}
+.navBar {
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	li {
+		list-style: none;
+		a {
+			display: flex;
+			text-decoration: none;
+			color: black;
+			font-size: 20px;
+			&:hover {
+				color: yellow;
+			}
+		}
+	}
+}
